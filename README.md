@@ -19,5 +19,9 @@ operations. Do not use ChatGPT or any generative AI. You will be required to exp
 I’ll catch you. 
 #### Hints: Try tackling the problem into parts.
 1. Read a digit (character) from the user.
+    - Get only one char
+    - Has to be 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+    - Loops until 'X'
+    - Doesnt need exception handling.
 2. Translate it to the corresponding integer value. For example, 'A' is 10, 'E' is 14, '3' is 3, etc.
 3. Use bit wise operations to print 0 or 1 for each bit in the integer value.
